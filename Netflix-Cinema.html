@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en" >
+	<meta charset="UTF-8">
+	<meta name="description" content="Netflix online streaming services"> 
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Netflix Online Cinema</title>
+	<link rel="shortcut icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico"/>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<link href="css/style-cinema.css" rel="stylesheet" type="text/css">
+	
+</head>
+<body>
+	<div id="bar">
+		<div id="header-wrapper">		
+		</div>
+		<div id="fheader">
+			<a href=#><img id="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1024px-Netflix_2015_logo.svg.png" alt="icon-logo"></a>	
+			<a href="Netflix-nine.html" class="redButton" >Видео</a>
+		</div>
+		<div id="bar-ins">
+			<h1 class="film">Netflix online streaming services</h1>				
+		</div>
+	</div>
+
+
+	<section class="filter">
+		<div id="bar-ins">
+			<h1 class="film">Start searching for movies using filters:</h1>				
+		</div>
+		<select class="search" id="search_genre">
+			<option value="0" selected>-</option>
+		</select>
+		<select class="search" id="search_director">
+			<option value="0" selected>-</option>
+		</select>
+		<select class="search" id="search_year">
+			<option value="0" selected>-</option>
+			<option value="1990">1990-1994</option>
+			<option value="1995">1995-1999</option>
+			<option value="2000">2000-2004</option>
+			<option value="2005">2005-2009</option>
+			<option value="2010">2010-2014</option>
+			<option value="2015">2015-2020</option>
+		</select>
+		<button id="submit_btn">Search</button>
+		<div class="result">
+			<table class="table table-striped table-dark">
+				<thead>
+					<tr>
+						<th scope="col">#</th>
+						<th scope="col">Title</th>
+						<th scope="col">Director</th>
+						<th scope="col">Genres</th>
+						<th scope="col">Year</th>
+					</tr>
+				</thead>
+				<tbody id="tbody">
+				</tbody>
+			</table>
+		</div>
+	</section>
+
+	<script src="script/cinema.js"></script>
+</body>
+</html>

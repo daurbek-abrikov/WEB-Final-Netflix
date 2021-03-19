@@ -1,0 +1,109 @@
+body{
+	background-color: #000000;
+	margin:0px;
+	font-family: Netflix sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+	color: white;
+	font: 16px;
+}
+#header-wrapper{ 
+	padding: 20px 0px 0px; 
+	height: 5px; 
+} 
+#fheader{
+	margin: 0px 56px;
+	height: 45px
+}
+#icon{
+	width:180px;
+	height:54px;
+	padding: 5px 0px 0px;
+}
+
+/* Block reg */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.login_outer{
+	background-color:#13110f; 
+	opacity: 0.85;
+	padding-top: 30px; 
+	padding-left: 30px;
+	margin: 0 auto;
+	margin-top: 100px;
+	width: 440px;
+	height: 380px;
+}
+
+#form{
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+}
+
+.cin{
+	width: 350px; 
+	background-color:#333;
+	font-size: 18px;
+	color:#8a8a8a; 
+	padding: 12px; 
+	margin: 8px;
+	margin-left:0;	
+	border: 0; 
+	border-radius: 5px; 
+}
+
+.cin:last-child{
+	margin-bottom: 45px;
+}
+
+#validate_res{
+	display: none;
+	color: red;
+	text-align: left;
+	width: 80%;
+}
+#result{
+	display: none;
+	color:white;
+	text-align: left;
+	text-decoration: none;
+	width: 80%;
+}
+#result:hover{
+	text-decoration: none;
+	color:red;
+}
+
+.link{
+	color: #fff;
+	text-decoration: none;
+	text-align: left;
+	width: 80%;
+}
+
+.subbutton{
+	width: 274px;
+	padding: 12px 24px 12px 24px;
+	margin-top:25px;font-size: 18px;
+	background-color: red; 
+	color:white; 
+	border: 0;
+	border-radius:3px; 
+	opacity: 0.5;
+}
+
+.subbutton:hover{
+	opacity: 1;
+}
+
+.Captcha{color:#8a8a8a;font-size:13px; }
+
+/* Block reg */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+#bar{
+	margin-top:0px;
+	padding-top:0px;
+	background-image:url("images/netflexgr2.jpg"); 
+	background-attachment: fixed;
+	background-size:cover;
+	height: 850px;
+	border-bottom:8px solid #333;
+}
